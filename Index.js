@@ -1,42 +1,46 @@
-// Declare JavaScript Variables
-var Name;
-var _name;
-var $name;
-var name;
-var name99;
+// Add Two Numbers with JavaScript
+const myVar = 5 + 10;
 
-// Storing Values with the Assignment Operator
-ourName = 5;
+// Subtract One Number from Another with JavaScript
+const myVar = 12 - 6;
 
-// Assigning the Value of One Variable to Another
-var myVar;
-myVar = 5;
-var myNum;
-myNum = myVar;
+// Multiply Two Numbers with JavaScript
+const myVar = 13 * 13;
 
-// Initializing Variables with the Assignment Operator
-var myVar = 0;
+// Divide One Number by Another with JavaScript
+const myVar = 16 / 2;
 
-// Declare String Variables
-var myName = "your name";
+// Increment a Number with JavaScript
+i++; --> i = i + 1;
 
-// Understanding Uninitialized Variables
-    /*  When JavaScript variables are declared, they have an initial value of undefined. If you do a mathematical operation on an undefined variable your result will be NaN which means "Not a Number". If you concatenate a string with an undefined variable, you will get a literal string of undefined. */
+// Decrement a Number with JavaScript
+i--; --> i = i - 1;
+
+// Create Decimal Numbers with JavaScript
+const ourDecimal = 5.7;
+
+// Multiply Two Decimals with JavaScript
+const product = 2.0 * 0.0;
+
+// Divide One Decimal by Another with JavaScript
+const quotient = 0.0 / 2.0; 
+
+// Finding a Remainder in JavaScript
+const remainder = 11 % 3;
 
 
-// Understanding Case Sensitivity in Variables
-var someVariable;
-var SomeVariable;
-var anotherVariableName;
-var AnotherVariableNamE;
-    /* Write variable names in JavaScript in camelCase. In camelCase, multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized.*/
+/* Remember that everything to the right of the equals sign is evaluated first, so we can say: */
 
-// Explore Differences Between the var and let Keywords
-var camper = "James";
-var camper = "David";
-let damper = "David";
-damper = "James";
+// Compound Assignment With Augmented Addition
+let myVar = 1;
+myVar += 5; --> myVar = myVar + 5;
 
-// Declare a Read-Only Variable with the const Keyword
-const FAV_PET = "Cats";
-    /* Note: It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays). You will learn more about objects, arrays, and immutable and mutable values in later challenges. Also in later challenges, you will see examples of uppercase, lowercase, or camelCase variable identifiers. */
+// Compound Assignment With Augmented Subtraction
+myVar -= 5; --> myVar = myVar - 5;
+
+// Compound Assignment With Augmented Multiplication
+myVar *= 5; --> myVar = myVar * 5;
+
+// Compound Assignment With Augmented Division
+myVar = myVar / 5; --> myVar /= 5;
+
