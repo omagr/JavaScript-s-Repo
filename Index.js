@@ -1,46 +1,57 @@
-// Add Two Numbers with JavaScript
-const myVar = 5 + 10;
+// Escaping Literal Quotes in Strings
+const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
 
-// Subtract One Number from Another with JavaScript
-const myVar = 12 - 6;
+// Quoting Strings with Single Quotes
+const conversation = 'Finn exclaims to Jake, "Algebraic! Let\'s go!"';
 
-// Multiply Two Numbers with JavaScript
-const myVar = 13 * 13;
+// Escape Sequences in Strings
+  /*\'	single quote
+    \"	double quote
+    \\	backslash
+    \n	newline
+    \r	carriage return
+    \t	tab
+    \b	word boundary
+    \f	form feed*/
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"
 
-// Divide One Number by Another with JavaScript
-const myVar = 16 / 2;
+// Concatenating Strings with concatenation Operator
+const ourStr = "I come first. " + "I come second.";
 
-// Increment a Number with JavaScript
-i++; --> i = i + 1;
+// Concatenating Strings with the Plus Equals Operator
+let ourStr = "I come first. ";
+ourStr += "I come second.";
 
-// Decrement a Number with JavaScript
-i--; --> i = i - 1;
+// Constructing Strings with Variables
+const ourName = "freeCodeCamp";
+const ourStr = "Hello, our name is " + ourName + ", how are you?";
 
-// Create Decimal Numbers with JavaScript
-const ourDecimal = 5.7;
+// Appending Variables to Strings
+const anAdjective = "awesome!";
+let ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
 
-// Multiply Two Decimals with JavaScript
-const product = 2.0 * 0.0;
+// Find the Length of a String
+console.log("Alan Peter".length);
+const firstName = "Ada"
+console.log(firstName.length);
 
-// Divide One Decimal by Another with JavaScript
-const quotient = 0.0 / 2.0; 
+// Use Bracket Notation to Find the First Character in a String
+    /* JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.*/
+const firstName = "Charles";
+const firstLetter = firstName[0];
 
-// Finding a Remainder in JavaScript
-const remainder = 11 % 3;
+// Understand String Immutability
+let myStr = "Bob";
+myStr[0] = "J";
+    /* cannot change the value of myStr to Job, because the contents of myStr cannot be altered. Note that this does not mean that myStr cannot be changed, just that the individual characters of a string literal cannot be changed. The only way to change myStr would be to assign it with a new string, like this:*/
+let myStr = "Bob";
+myStr = "Job";
 
+// Use Bracket Notation to Find the Last Character in a String
+const firstName = "Ada";
+const lastLetter = firstName[firstName.length - 1];
 
-/* Remember that everything to the right of the equals sign is evaluated first, so we can say: */
-
-// Compound Assignment With Augmented Addition
-let myVar = 1;
-myVar += 5; --> myVar = myVar + 5;
-
-// Compound Assignment With Augmented Subtraction
-myVar -= 5; --> myVar = myVar - 5;
-
-// Compound Assignment With Augmented Multiplication
-myVar *= 5; --> myVar = myVar * 5;
-
-// Compound Assignment With Augmented Division
-myVar = myVar / 5; --> myVar /= 5;
-
+// Use Bracket Notation to Find the Nth-to-Last Character in a String
+const firstName = "Augusta";
+const thirdToLastLetter = firstName[firstName.length - 3];
